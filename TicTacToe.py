@@ -23,6 +23,7 @@ def intro():
     print('This is a two player game of TicTacToe\n')
     global start 
     start = input('Enter "Y" to Start or any key to quit: ')
+    print('You can also quit the game at any time by clicking "Q"')
 
 def decide_start():
     if start == 'y' or start == 'Y':
